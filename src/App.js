@@ -39,7 +39,7 @@ function App() {
         <input
           placeholder='Search for movies'
           value={searchTerm}
-          onChange={(e)=>setsearchTerm(e.target.value)}
+          onChange={(e)=>setSearchTerm(e.target.value)}
         />
         <img src={SearchIcon}
           alt='Search'
